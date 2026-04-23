@@ -55,3 +55,5 @@ Route::patch('/users/updateroles/{id}', 'App\Http\Controllers\usersController@up
 Route::get('/roles/assignpermissions/{id}', 'App\Http\Controllers\rolesController@assignPermissions')->name('roles.assignpermissions');
 
 Route::patch('/roles/updatepermissions/{id}', 'App\Http\Controllers\rolesController@updatePermissions')->name("roles.permissionsupdate");
+
+Route::get('/calendar/display', 'App\Http\Controllers\CalendarController@display')->name('calendar.display');

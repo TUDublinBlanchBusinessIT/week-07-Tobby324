@@ -7,3 +7,4 @@ window.Alpine = Alpine;
 Alpine.start();
 
 require('jquery');
+require('./calendar');
